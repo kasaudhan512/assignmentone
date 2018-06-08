@@ -1,0 +1,36 @@
+package electronics;
+
+public class Samsung extends Mobile implements CommonMethods {
+
+	public int batteryBackUps() {
+	
+		int batteryBackUp = 5;
+		return batteryBackUp;
+	}
+	
+	public void processor() {
+		
+		
+	}
+	
+	public void releaseDate() {
+		
+		
+	}
+	
+	public void camera() {
+	
+		
+	}
+	
+	public boolean isDualSim() {
+		
+		return true;
+		
+	}
+	
+	public boolean isTouchScreen() {
+		
+		return true;
+	}
+}

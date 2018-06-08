@@ -1,0 +1,51 @@
+package electronics;
+
+public class Xiaomi extends Mobile implements CommonMethods{
+	
+	private String processorName;
+	private String modelName;
+	private String releaseDate;
+	private String camera;
+	
+	public Xiaomi() {
+		
+		this.modelName = "Xiaomi";
+		this.processorName = "xyz";
+		this.cameraPixel = "20MP";
+		this.releaseDate = "Dec'18";
+	}
+	
+	public int batteryBackUps() {
+	
+		int batteryBackUp = 5;
+		if(process)
+		return batteryBackUp;
+	}
+	
+	public void processor() {
+		
+		System.out.println("The processor is "+ processorName + ".");
+	}
+	
+	public void releaseDate() {
+		
+		System.out.println("The Release Date of Xiaomi Mobile is " + releaseDate);
+	}
+	
+	public void camera() {
+	
+		System.out.println("The camera of Xiaomi Mobile is " + camera);
+	}
+	
+	public boolean isDualSim() {
+		
+		return true;
+		
+	}
+	
+	public boolean isTouchScreen() {
+		
+		return true;
+	}
+
+}

@@ -1,0 +1,42 @@
+package electronics;
+
+public class Mainclass {
+
+	public static void main(String[] args) {
+		
+		Oppo mobile1 = new Oppo();
+		Samsung mobile2 = new Samsung();
+		Mobile mobile3 = new Xiaomi();
+		
+		mobile1.camera();
+		
+		boolean isDualSim = mobile1.isDualSim();
+		
+		if(isDualSim)
+		{
+			System.out.println("Dual Sim Mobile.");
+		}
+		else
+		{
+			System.out.println("Single Sim Mobile.");
+		}
+		
+		boolean isTouchScreen = mobile1.isTouchScreen();
+		
+		if(isTouchScreen) 
+		{
+			System.out.println("Mobile is Touch Screen.");
+		}
+		else
+		{
+			System.out.println("Mobile is Key Pad Type.");
+		}
+		
+		int batteryBackUp = mobile1.batteryBackUps();
+		 
+		System.out.println("Battery BackUp is " + batteryBackUp + " Hours.");
+		mobile1.getName();
+		
+		
+	}
+}

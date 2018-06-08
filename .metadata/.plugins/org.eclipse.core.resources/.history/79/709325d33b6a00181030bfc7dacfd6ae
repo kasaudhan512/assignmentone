@@ -1,0 +1,11 @@
+package electronics;
+
+public class Electronics {
+
+	private String nameOfProduct;
+	
+	public Electronics() {
+		
+		this.nameOfProduct = nameOfProduct;
+	}
+}

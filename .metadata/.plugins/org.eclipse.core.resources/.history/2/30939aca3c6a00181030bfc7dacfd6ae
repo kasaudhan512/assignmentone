@@ -1,0 +1,9 @@
+package electronics;
+
+public abstract class Mobile extends Electronics {
+
+	public Mobile() {
+		
+		
+	}
+}

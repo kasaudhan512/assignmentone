@@ -1,0 +1,50 @@
+package electronics;
+
+public class Samsung extends Mobile implements CommonMethods {
+
+	private String processorName;
+	private String modelName;
+	private String releaseDate;
+	private String camera;
+	
+	public Samsung() {
+		
+		this.modelName = "Samsung";
+		this.processorName = "abc";
+		this.camera = "20MP";
+		this.releaseDate = "Dec'18";
+	}
+	
+	public int batteryBackUps() {
+	
+		int batteryBackUp = 5;
+		if(process)
+		return batteryBackUp;
+	}
+	
+	public void processor() {
+		
+		
+	}
+	
+	public void releaseDate() {
+		
+		
+	}
+	
+	public void camera() {
+	
+		
+	}
+	
+	public boolean isDualSim() {
+		
+		return true;
+		
+	}
+	
+	public boolean isTouchScreen() {
+		
+		return true;
+	}
+}

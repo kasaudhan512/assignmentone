@@ -1,0 +1,8 @@
+package electronics;
+
+public class Samsung extends Mobile implements CommonMethods {
+
+	public int batteryBackUp() {
+		
+	}
+}

@@ -1,0 +1,19 @@
+package electronics;
+
+public abstract class Mobile extends Electronics {
+
+	public Mobile() {
+
+		super("Mobile");
+	}
+
+	public abstract void processor();
+
+	public abstract void releaseDate();
+
+	public abstract void camera();
+
+	public abstract boolean isDualSim();
+
+	public abstract boolean isTouchScreen();
+}

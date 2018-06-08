@@ -1,0 +1,17 @@
+package electronics;
+
+public class Mainclass {
+
+	public static void main(String[] args) {
+		
+		Oppo mobile1 = new Oppo();
+		Samsung mobile2 = new Samsung();
+		Xiaomi mobile3 = new Xiaomi();
+		
+		mobile1.camera();
+		mobile1.isDualSim();
+		mobile1.isTouchScreen();
+		mobile1.batteryBackUps();
+		
+	}
+}
